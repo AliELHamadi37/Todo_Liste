@@ -33,7 +33,7 @@ cd Todo_Liste
 docker-compose up --build
 ```
 
-- Frontend : `http://localhost:3000`
+- Frontend : `http://localhost:3001`
 - Backend API : `http://localhost:5000/api/todos`
 - MongoDB : Port `27017`
 
