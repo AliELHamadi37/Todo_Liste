@@ -1,0 +1,35 @@
+version: '3'
+services:
+  # Backend
+  backend:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/todolist
+    depends_on:
+      - mongodb
+
+  # Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  # MongoDB
+  mongodb:
+    image: mongo:latest
+    volumes:
+      - mongodb-data:/data/db
+    ports:
+      - "27017:27017"
+
+# Volumes pour persister les données MongoDB
+volumes:
+  mongodb-data:
