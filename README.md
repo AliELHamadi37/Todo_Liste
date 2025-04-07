@@ -79,8 +79,8 @@ docker-compose down
   📂 GitHub : [AliELHamadi37](https://github.com/AliELHamadi37)  
   🐳 Docker Hub : [elhamadiinnovator](https://hub.docker.com/u/elhamadiinnovator)
 -Rim AKRACH
-   📂 GitHub : [AliELHamadi37](https://github.com/RimAkrach83)  
-  🐳 Docker Hub : [elhamadiinnovator](https://hub.docker.com/u/akracherim)
+   📂 GitHub : [RimAkrach](https://github.com/RimAkrach83)  
+  🐳 Docker Hub : [akracherim](https://hub.docker.com/u/akracherim)
   
   
 
