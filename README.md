@@ -92,5 +92,4 @@ docker-compose down
 
 ```
 
-👉 Tu peux maintenant copier-coller ce contenu directement dans ton fichier `README.md` à la racine du projet.  
-Souhaite-tu que je t’aide aussi à pousser ce nouveau fichier sur GitHub ?
+
